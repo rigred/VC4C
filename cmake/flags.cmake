@@ -2,7 +2,7 @@ set(VC4C_ENABLED_WARNINGS
 	-Wall -Wextra
 	-Wold-style-cast -Wnon-virtual-dtor -Wnull-dereference
 	-Wno-unused-parameter -Wno-missing-field-initializers -Wno-write-strings -Wno-float-equal
-	-Werror=return-type -Werror=unused-result -Werror=shift-count-overflow -Werror=missing-field-initializers -Werror=reorder
+	-Werror=return-type -Werror=shift-count-overflow -Werror=missing-field-initializers -Werror=reorder
 )
 # Enable additional warnings, if available
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
